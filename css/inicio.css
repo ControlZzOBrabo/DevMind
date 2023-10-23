@@ -12,7 +12,7 @@ main{
     align-items: center;
     justify-content: center;
     /* border: solid 2px red; */
-    padding: 50px;
+    padding: 20px;
 }
 
 .box1{
@@ -158,4 +158,6 @@ main{
     color: white;
     font-size: 40px;
     font-family: monospace;
+    -webkit-animation: tracking-in-expand 0.7s 1s both;
+	  animation: tracking-in-expand 0.7s 1s both;
 }
