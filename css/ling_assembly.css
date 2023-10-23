@@ -55,7 +55,7 @@ main{
   /* align-items: center; */
   /* border: solid 2px red; */
   width: 1500px;
-  height: 900px;
+  height: 1000px;
 }
 
 .img_01{
@@ -102,7 +102,7 @@ main{
 .titulo_01{
   padding: 30px;
   width: 800px;
-  height: 150px;
+  height: 75px;
   background-color: white;
   color: rgb(80, 79, 79);
   font-size: 66px;
@@ -115,7 +115,7 @@ main{
 .titulo_02{
   padding: 30px;
   width: 800px;
-  height: 227px;
+  height: 350px;
   background-color: white;
   color: gray;
   font-size: 34px;
@@ -155,5 +155,12 @@ iframe{
   font-size: 34px;
   font-family: monospace;
   -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) 5s both;
+    animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) 5s both;
+}
+
+.img_02_assembly{
+    margin-left: 10px;
+    width: 860px;
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) 5s both;
     animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) 5s both;
 }
